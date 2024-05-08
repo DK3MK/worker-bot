@@ -1,0 +1,20 @@
+{
+    "me":{
+        "myname":"Abdul Majeed Saif",
+        "mynickname": "dark man",
+        "myage": "00",
+        "about":"I am dark man, a programmer, robot developer, and software developer",
+        "copyright":"Copyright © 2024 dark man."
+    },
+    "APIs":{
+        "api_darkman":"https://api-darkman-${}.herokuapp.com",
+        "api2_darkman":"https://bardai-dxr9.onrender.com"
+    },
+    "communicate":{
+        "mychannel":"https://whatsapp.com/channel/0029VaI4a3JDZ4LbOAHbdu47",
+        "mycommunity":"https://chat.whatsapp.com/KRWNoOonccW4p3gKjdEmcM",
+        "mygroup":"https://chat.whatsapp.com/GGQRwGwwYmZD6bgtSy0k5r",
+        "mynumber":"wa.me/96894116692",
+        "myinsta":"instagram.com/aboud_coding"
+    }
+}
