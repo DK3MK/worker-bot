@@ -1,3 +1,11 @@
+/*
+        Itachi xvi 🤍
+        Itachi xvi 🤍
+        Itachi xvi 🤍
+        Itachi xvi 🤍
+        Itachi xvi 🤍
+        Itachi xvi 🤍
+*/
 import fetch from 'node-fetch';
 
 let points = 50;
