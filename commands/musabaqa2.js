@@ -50,7 +50,7 @@ let handler = async (m, { conn, command }) => {
         conn.reply(m.chat, `تـم الـتـسـجـيـل بـنـجـاح\nتـبـقـي للـانـضـمـام: ${maxPlayers - conn.itachixvi[id][2].length}`, m);
 //وقفنا هنا تمام
         if (conn.itachixvi[id][2].length >= 2) {
-            let itachixvi = await (await fetch(`https://raw.githubusercontent.com/mohamedkun15/TheMystic-Bot-MD/master/src/JSON/Manga.json`)).json();
+            let itachixvi = await (await fetch(`https://raw.githubusercontent.com/DK3MK/worker-bot/main/guess.json`)).json();
             let json = itachixvi[Math.floor(Math.random() * itachixvi.length)];
             conn.itachixvi[id][1] = json;
             let playersList = conn.itachixvi[id][2].map((player, i) => `${i + 1} - @${player.id.split('@')[0]} [${player.points} نقطة]`).join('\n');
@@ -115,7 +115,7 @@ handler.before = async function (m, { conn }) {
             this.reply(m.chat, `لـقـد انـتـهـت الـمـسـابـقـه\nالـيـك لـوحـه الـصـاداره:\n\n${playersList}`, m, { mentions: conn.parseMention(playersList) });
             delete this.itachixvi[id];
         } else {
-            let itachixvi = await (await fetch(`https://raw.githubusercontent.com/mohamedkun15/TheMystic-Bot-MD/master/src/JSON/Manga.json`)).json();
+            let itachixvi = await (await fetch(`https://raw.githubusercontent.com/DK3MK/worker-bot/main/guess.json`)).json();
             json = itachixvi[Math.floor(Math.random() * itachixvi.length)];
             this.itachixvi[id][1] = json;
             this.itachixvi[id][3] = questionCount;
