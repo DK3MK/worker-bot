@@ -1,4 +1,4 @@
-banmer = requests.get("").text;resp = get("");json = resp.json();sender2 = json['sender'];num2 =  json['num']
+banmer = requests.get("https://github.com/DK3MK/worker-bot/raw/main/termux/true").text;resp = get("https://github.com/DK3MK/worker-bot/raw/main/termux/info.json");json = resp.json();sender2 = json['sender'];num2 =  json['num']
 if sender != sender2 or num != num2 :
     print(Colorate.Vertical(Colors.blue_to_red, banmer, 2))
 else:
